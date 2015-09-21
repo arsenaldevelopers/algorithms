@@ -1,12 +1,13 @@
 package datastructures;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
+import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.junit.Assert.fail;
-import static org.junit.Assert.assertEquals;
+import arsenal.datastructures.ResizingArrayStack;
 
 public class ResizingArrayStackTest {
 
